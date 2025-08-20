@@ -1,3 +1,10 @@
+const { discord } = window;
+
+// Wait for Discord to be ready
+discord.on("ready", () => {
+  console.log("Discord Activity is ready!");
+});
+
 var k;
 k || (k = typeof Module !== 'undefined' ? Module : {});
 k.jk || (k.jk = 0);
